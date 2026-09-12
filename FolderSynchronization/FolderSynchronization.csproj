@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FileCompare.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="SynchronizationService.cs" />
+    <Compile Remove="SyncParameters.cs" />
+  </ItemGroup>
+
+</Project>

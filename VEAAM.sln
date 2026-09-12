@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSynchronization", "FolderSynchronization\FolderSynchronization.csproj", "{29E81E91-4694-41AA-AC2F-9D8A35148A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationBackgroundTask", "SynchronizationBackgroundTasks\SynchronizationBackgroundTask.csproj", "{B5DE42D0-0B3E-42A9-B96E-83BD90515DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E81E91-4694-41AA-AC2F-9D8A35148A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E81E91-4694-41AA-AC2F-9D8A35148A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E81E91-4694-41AA-AC2F-9D8A35148A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E81E91-4694-41AA-AC2F-9D8A35148A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DE42D0-0B3E-42A9-B96E-83BD90515DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DE42D0-0B3E-42A9-B96E-83BD90515DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DE42D0-0B3E-42A9-B96E-83BD90515DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DE42D0-0B3E-42A9-B96E-83BD90515DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E06F4D2-BBE2-4A9B-8FA4-D74D328E0EA2}
+	EndGlobalSection
+EndGlobal
